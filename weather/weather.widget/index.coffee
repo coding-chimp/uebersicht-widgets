@@ -51,7 +51,7 @@ style: """
 
   background-image(image)
     background url(image) no-repeat
-    background-size 300px 300px
+    background-size 337px 300px
 
   .weather-icon.clear-day::after
     background-image('weather.widget/icons/clear-day.png')
