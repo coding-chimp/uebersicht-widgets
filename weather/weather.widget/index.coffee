@@ -24,8 +24,8 @@ update: (output, domEl) ->
   $(domEl).find(".weather-icon").addClass @getIcon data
 
 style: """
-  bottom 7%
-  left 1%
+  bottom 50px
+  left 10px
 
   font-family "Avenir Next"
   font-weight 300
@@ -43,11 +43,11 @@ style: """
   .weather-icon::after
     content ""
     opacity 0.25
+    position absolute
     top -100px
     left 50px
     bottom 0
     right 0
-    position absolute
 
   background-image(image)
     background url(image) no-repeat

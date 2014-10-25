@@ -1,0 +1,5 @@
+{
+  "name": "GitHub Streak",
+  "description": "Displays the streak of consecutive days of pushing commits to GitHub.",
+  "author": "Bastian Bartmann"
+}
