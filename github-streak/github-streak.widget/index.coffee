@@ -1,4 +1,6 @@
-command: "curl --silent 'http://<your-app>/github/streak/number'"
+command: "curl --silent 'http://status-board-widgets.herokuapp.com/github/streak/number'"
+
+refreshFrequency: 60000
 
 render: (output) -> """
   <div class="streak">#{output}</div>
