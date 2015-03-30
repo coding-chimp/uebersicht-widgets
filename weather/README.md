@@ -1,7 +1,7 @@
 # Weather Widget
 
 <a href="https://raw.githubusercontent.com/coding-chimp/uebersicht-widgets/master/weather/screenshot.png" target="_blank">
-  <img src="https://raw.githubusercontent.com/coding-chimp/uebersicht-widgets/master/weather/screenshot.png" alt="the widget in action" widht=591 height=287>
+  <img src="https://raw.githubusercontent.com/coding-chimp/uebersicht-widgets/master/weather/screenshot.png" alt="the widget in action" width=591 height=287>
 </a>
 
 ## Notes

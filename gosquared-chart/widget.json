@@ -1,0 +1,5 @@
+{
+  "name": "GoSquared Chart",
+  "description": "Fetches your sites visitors from GoSquared and display the last 30 days as a chart.",
+  "author": "Bastian Bartmann"
+}
