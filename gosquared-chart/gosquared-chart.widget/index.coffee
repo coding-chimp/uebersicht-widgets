@@ -61,7 +61,7 @@ dateAsString: (date, api) ->
     "#{day}/#{month}"
 
 getDeviations: ->
-  visits = (day.metrics.visits for day in @days)
+  visits = (day.metrics.visits || 0 for day in @days)
   @max = Math.max.apply(Math, visits)
   @today = visits[visits.length - 1]
   sum = visits.reduce ((total, item) -> total + item), 0
